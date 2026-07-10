@@ -1,0 +1,61 @@
+> init
+<<<
++ diff.txt 4.txt
+> add diff.txt
+<<<
+> commit "diff file 1" 
+<<<
++ diff.txt 5.txt
+> diff
+diff --git a/diff.txt b/diff.txt   
+--- a/diff.txt                     
++++ b/diff.txt                     
+@@ -16 +15,0 @@                    
+-zdbzzzazehhzgfzh                  
+@@ -31 +29,0 @@                    
+-zzazazczzjhzzzzj                  
+@@ -38 +35,0 @@                    
+-zdjgihzizzzjhgzz                  
+@@ -39,0 +37 @@                    
++zbccazbzceizzcjz                  
+@@ -43,0 +42 @@                    
++izdzzdzgzzbgzzze                  
+@@ -53,2 +51,0 @@                  
+-zeezbzezzzjzaghz                  
+-zzggzczgfibzfhzz                  
+@@ -58,0 +56 @@                    
++izccafhhbczzjzzb                  
+@@ -68 +65,0 @@                    
+-zzczzzzhhfbgafgb                  
+@@ -71 +67,0 @@                    
+-zzzhagahjjezzzjz                  
+@@ -76,0 +73 @@                    
++zdzcczcbzeefbzzz                  
+@@ -82 +78,0 @@                    
+-zeehzzezfgbcgzzz                  
+@@ -84 +79,0 @@                    
+-zfzjadbzgzzgegfe                  
+@@ -87,0 +83 @@                    
++jzzzzzhizzfjjjdz                  
+@@ -89,2 +84,0 @@                  
+-jbazfazabcezzezc                  
+-zfzdzzcfizdbddgz                  
+@@ -93 +86,0 @@                    
+-zzfzzazeebzzzgzc                  
+@@ -95 +87,0 @@                    
+-zzgizzefzeegzzzf                  
+@@ -97 +88,0 @@                    
+-zjjhbhcajhzgjbzc                  
+@@ -100,0 +92,11 @@                
++zeehzzezfgbcgzzz                  
++zfzjadbzgzzgegfe                  
++jbazfazabcezzezc                  
++jbazfazabcezzezc                  
++zzazazczzjhzzzzj                  
++zzgizzefzeegzzzf                  
++zzgizzefzeegzzzf                  
++zzggzczgfibzfhzz                  
++zbzzzjazhjazzjdf                  
++zjjhbhcajhzgjbzc                  
++zzzhagahjjezzzjz                  
+<<<

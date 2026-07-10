@@ -1,0 +1,58 @@
+> init
+<<<
++ diff.txt 2.txt
+> add diff.txt
+<<<
+> commit "diff file 1" 
+<<<
++ diff.txt 3.txt
+> diff
+diff --git a/diff.txt b/diff.txt      
+--- a/diff.txt                        
++++ b/diff.txt                        
+@@ -1 +0,0 @@                         
+-zgzdzcjigzdzfazf                     
+@@ -8 +6,0 @@                         
+-zgzigzzfcczezzge                     
+@@ -14,0 +13,2 @@                     
++jzizzczdzzfezzdh                     
++jzizzczdzzfezzdh                     
+@@ -48 +47,0 @@                       
+-jhfjzbzzzfziagzg                     
+@@ -55,2 +53,0 @@                     
+-jgcedizffgdjzzaz                     
+-zjzgczfdigghdfcz                     
+@@ -61,2 +57,0 @@                     
+-jeejfzzizzhaifej                     
+-zgzzzezbdgadjzzz                     
+@@ -67,0 +63 @@                       
++zizzzafazcbzzihe                     
+@@ -68,0 +65,2 @@                     
++zidzzgejdzhizzdh                     
++zidzzgejdzhizzdh                     
+@@ -71 +69 @@                         
+-jhzzgdizdjbzzdei                     
++iicebzihazezcbig                     
+@@ -81 +78,0 @@                       
+-ibecghfeizijzbgf                     
+@@ -83 +79,0 @@                       
+-jdzdbzazzzizzhzc                     
+@@ -86 +81,0 @@                       
+-zzzcdzhczjzbfzcc                     
+@@ -89 +83,0 @@                       
+-zzzzczzdzebjbizd                     
+@@ -91,0 +86 @@                       
++zebzfizezzdgiazh                     
+@@ -93,0 +89 @@                       
++zggzzzzzdzjzezzz                     
+@@ -95 +90,0 @@                       
+-zzzdzbzjbgzhbgag                     
+@@ -99 +93,0 @@                       
+-jfjhcajzfabbczca                     
+@@ -100,0 +95,5 @@                    
++jdzdbzazzzizzhzc                     
++zjzgczfdigghdfcz                     
++zzfzzazzzehfigzh                     
++zzzdzbzjbgzhbgag                     
++zzzzczzdzebjbizd                     
+<<<

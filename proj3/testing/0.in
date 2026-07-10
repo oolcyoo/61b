@@ -1,0 +1,68 @@
+> init
+<<<
++ diff.txt 0.txt
+> add diff.txt
+<<<
+> commit "diff file 1" 
+<<<
++ diff.txt 1.txt
+> diff
+diff --git a/diff.txt b/diff.txt  
+--- a/diff.txt                    
++++ b/diff.txt                    
+@@ -3,0 +4 @@                     
++ifzzhzicazzzdzed                 
+@@ -8,2 +8,0 @@                   
+-zdcgjdizzdhfdcgd                 
+-zcfzzfzzfajzaizz                 
+@@ -17 +15,0 @@                   
+-zzhizjzjfezzezdc                 
+@@ -27,0 +26 @@                   
++zzzazihzizidzagg                 
+@@ -32 +30,0 @@                   
+-ifaczijdgbzzzacd                 
+@@ -37,2 +34,0 @@                 
+-zzzzedgzihzzzzzz                 
+-zaabzdhfzcbzgzzj                 
+@@ -42,3 +38 @@                   
+-zfgzedzczchafgzz                 
+-zazijcdizffzzgdz                 
+-izjazjizzziaijdz                 
++zgdjzgjzdzeizcza                 
+@@ -48 +41,0 @@                   
+-ziibzzgzzzzzggfz                 
+@@ -50 +42,0 @@                   
+-zjbzzjzjbgizzcdj                 
+@@ -59 +50,0 @@                   
+-jgffjgcczadezzzb                 
+@@ -65 +55,0 @@                   
+-iedzcijzhihdccfz                 
+@@ -68 +57,0 @@                   
+-zjzdicazcceazdzz                 
+@@ -72 +60,0 @@                   
+-jzibzgzfjezjbzza                 
+@@ -74,2 +61,0 @@                 
+-zfedjjzzgchhczzf                 
+-zedizgbbbzbzzzec                 
+@@ -78 +63,0 @@                   
+-ibzzzagzzedzfjzf                 
+@@ -85,0 +71 @@                   
++zzzhezzzjzbaafga                 
+@@ -95 +80,0 @@                   
+-zbfbaedzbzbggzgz                 
+@@ -100 +85,13 @@                 
+-ibgejizaizazzcbd                 
++zfgzedzczchafgzz                 
++jzibzgzfjezjbzza                 
++zfedjjzzgchhczzf                 
++zaabzdhfzcbzgzzj                 
++                                 
++ibzzzagzzedzfjzf                 
++jgffjgcczadezzzb                 
++zbzzgzhdbzefbgzz                 
++zbfbaedzbzbggzgz                 
++zjzdicazcceazdzz                 
++ziibzzgzzzzzggfz                 
++zzzzedgzihzzzzzz                 
++zejzezbzhbzzdzzb                 
+<<<
